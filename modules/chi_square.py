@@ -4,7 +4,7 @@ Uji keacakan dengan metode Chi-Square Goodness of Fit.
 Hipotesis nol (H0): distribusi nomor adalah acak seragam (uniform).
 """
 
-from scipy import stats
+from modules import stats_utils as stats
 from database import get_conn
 from modules.preprocessing import hitung_frekuensi_digit
 from datetime import date
